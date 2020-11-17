@@ -16,13 +16,13 @@
     <ng-template #sinarticulos><p>No hay articulos.</p></ng-template>
     <div>
       <p>
-        Codigo:<input type="number" [(ngModel)]="art.codigo" />
+        Codigo:<input type="number" [(ngModel)]="codigoInput" />
       </p>
       <p>
-        descripcion:<input type="text" [(ngModel)]="art.descripcion" />
+        descripcion:<input type="text" [(ngModel)]="descripcionInput" />
       </p>
       <p>
-        precio:<input type="number" [(ngModel)]="art.precio" />
+        precio:<input type="number" [(ngModel)]="precioInput" />
       </p>            
       <p><button (click)="agregar()">Agregar</button>
       <button (click)="modificar()">Modificar</button></p>
